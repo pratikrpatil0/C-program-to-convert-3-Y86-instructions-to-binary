@@ -1,0 +1,76 @@
+---> You can try this kind of inputs with this program:-
+
+
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl eix, eax
+rrmovl ebx, edi
+rrmovl ecx, eax
+hlt
+nop
+
+
+
+rrmovl ecx, eax
+hlt
+nop
+
+
+hlt 
+nop 
+rrmovl ebx, eax
+rrmovl ebx, eax
+
+
+hlt 
+nop 
+hlt 
+nop 
+rrmovl eix, edi
+
+
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl eix, eax
+rrmovl ebx, edi
+hlt 
+nop
+
+
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl ebx, eax
+rrmovl eix, eax
+rrmovl ebx, edi
+rrmovl ecx, eax
+hlt
+
+
+rrmovl edi, eix
+rrmovl ebx, eax 
+hlt 
+nop
+
+
+nop
+hlt 
+rrmovl
+hlt 
+nop 
+hlt
+
+
+hlt 
+
+nop
+
+
+rrmovl eix, edi
+
+
+
+
+

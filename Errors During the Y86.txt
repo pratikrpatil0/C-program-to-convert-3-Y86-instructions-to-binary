@@ -1,0 +1,53 @@
+//------------------------------
+// Edited By Pratik Patil      |
+// Last Edited on 17/10/23     |
+//------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Errors During the Y86 Assembly Instruction to Binary Program
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 1: Stack smashing detected
+
+This error occurred because I didn't define the proper length of the string variable. This caused a buffer overflow, which led to stack smashing. To fix the error, I ensured that the string variables (input1, input2, input3, and result) have sufficient length to accommodate the data they will store.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 2: Invalid register
+
+This error occurred when I tried to parse invalid register names. To fix the error, I checked if the register names obtained from the input file are valid. If not, I printed an error message indicating an invalid register.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 3: Invalid instruction
+
+This error occurred when I encountered an invalid instruction in the input file. To fix the error, I printed an error message and terminated the program when I encountered an invalid instruction.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 4: Could not open input file
+
+This error occurred when the program failed to open the specified input file (input.txt in this case). To fix the error, I checked if the input file is successfully opened. If not, I printed an error message and exited the program.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 5: Invalid hexadecimal digit
+
+This error occurred when I encountered a non-hexadecimal digit while converting a hexadecimal number to binary. To fix the error, I checked the input hexadecimal digit and printed an error message if I encountered an invalid digit, indicating that the input is not a valid hexadecimal number.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*Error 6: Format ‘%s’ expects argument of type ‘char ’, but argument 2 has type ‘int’
+
+This error occurred when there was a mismatch between the format specifier in a printf or scanf function and the actual data type of the variable being passed. To fix the error, I used the correct format specifier (%c for char variables) in the printf and scanf functions to match the data type of the variables.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Error 7: Warning: implicit declaration of function ‘function_name’
+
+This warning occurred when I used a function before it was declared or defined. To fix the warning, I declared the function (provided a prototype) before it was used in the code. This informs the compiler about the function's signature before it's called.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
